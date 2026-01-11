@@ -88,7 +88,7 @@ ui <- dashboardPage(
                 ),
                 
                 box(
-                  title = "Global Attendance by Club", status = "warning", solidHeader = TRUE, width = 5,
+                  title = "Global Attendance by Club", status = "primary", solidHeader = TRUE, width = 5,
                   plotOutput("club_plot", height = "350px")
                 )
               ),
